@@ -1,0 +1,996 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Climate Change - RamaFleet</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="icon" href="./favicon.svg" />
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@1&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <div class="overlay" data-overlay></div>
+
+      <a href="#" class="logo">
+        <img src="./favicon.svg" alt="ramaFleet logo" width="70" height="30">
+      </a>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link" data-nav-link>Home</a>
+          </li>
+
+          <li>
+            <a href="#featured-car" class="navbar-link" data-nav-link>Explore cars</a>
+          </li>
+
+          <li>
+            <a href="#about-us" class="navbar-link" data-nav-link>About us</a>
+          </li>
+
+          <li>
+            <a href="#blog" class="navbar-link" data-nav-link>Blog</a>
+          </li>
+
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+
+        <div class="header-contact">
+          <a href="tel:919891785007" class="contact-link">91 9891 7850 07</a>
+
+          <span class="contact-time">Mon - Sun: 5:00 am - 8:00 pm</span>
+        </div>
+
+        <a href="#featured-car" class="btn" aria-labelledby="aria-label-txt">
+          <i class="bi bi-car-front"></i>
+
+          <span id="aria-label-txt">Book Now</span>
+        </a>
+
+        <a href="#" class="btn user-btn" aria-label="Profile">
+          <i class="bi bi-person-circle"></i>
+        </a>
+
+        <button class="nav-toggle-btn" data-nav-toggle-btn aria-label="Toggle Menu">
+          <span class="one"></span>
+          <span class="two"></span>
+          <span class="three"></span>
+        </button>
+
+      </div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" id="home">
+        <div class="container">
+
+          <div class="hero-content">
+            <h2 class="h1 hero-title">The easy way to takeover a lease</h2>
+
+            <p class="hero-text">
+              Live in Chapra, Baniyapur and Patna!
+            </p>
+          </div>
+
+          <div class="hero-banner"></div>
+
+          <form action="" class="hero-form">
+
+            <div class="input-wrapper">
+              <label for="input-1" class="input-label">Car, model or brand</label>
+
+              <input type="text" name="car-model" id="input-1" class="input-field"
+                placeholder="looking for a car?">
+            </div>
+
+            <div class="input-wrapper">
+              <label for="input-2" class="input-label">Pickup location</label>
+
+              <input type="text" name="from" id="input-2" class="input-field" placeholder="Add a location">
+            </div>
+
+            <div class="input-wrapper">
+              <label for="input-3" class="input-label">Drop location</label>
+
+              <input type="text" name="to" id="input-3" class="input-field" placeholder="Add a location">
+            </div>
+
+            <button type="submit" class="btn">Search</button>
+
+          </form>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #FEATURED CAR
+      -->
+
+      <section class="section featured-car" id="featured-car">
+        <div class="container">
+
+          <div class="title-wrapper">
+            <h2 class="h2 section-title">Featured cars</h2>
+
+            <a href="#" class="featured-car-link">
+              <span>Adding SOON</span>
+
+              <i class="bi bi-exclamation-lg"></i>
+            </a>
+          </div>
+
+          <ul class="featured-car-list">
+
+            <li>
+              <div class="featured-car-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/car-1.png" alt="mahindra" loading="lazy" width="440" height="303"
+                    class="w-100">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-title-wrapper">
+                    <h3 class="h3 card-title">
+                      <a href="#">Hatchback</a>
+                    </h3>
+                  </div>
+
+                  <ul class="card-list">
+
+                    <li class="card-list-item">
+                      <i class="bi bi-person"></i>
+
+                      <span class="card-item-text">4 People</span>
+                    </li>
+
+                    <li class="card-list-item">
+                      <i class="bi bi-lightning-charge"></i>
+
+                      <span class="card-item-text">Hybrid</span>
+                    </li>
+
+                    <li class="card-list-item">
+                      <i class="bi bi-speedometer2"></i>
+
+                      <span class="card-item-text">8.1km / 1-litre</span>
+                    </li>
+
+                    <li class="card-list-item">
+                      <i class="bi bi-suitcase"></i>
+
+                      <span class="card-item-text">Luggage</span>
+                    </li>
+
+                  </ul>
+
+                  <div class="card-price-wrapper">
+
+                    <p class="card-price">
+                      <strong>$10</strong> / month
+                    </p>
+
+                    <button class="btn fav-btn" aria-label="Add to favourite list">
+                      <i class="bi bi-heart-fill"></i>
+                    </button>
+
+                    <button class="btn">Rent now</button>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="featured-car-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/car-2.png" alt="tata" loading="lazy" width="440" height="303"
+                    class="w-100">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-title-wrapper">
+                    <h3 class="h3 card-title">
+                      <a href="#">Sedan</a>
+                    </h3>
+                  </div>
+
+                  <ul class="card-list">
+
+                    <li class="card-list-item">
+                      <i class="bi bi-person"></i>
+
+                      <span class="card-item-text">4 People</span>
+                    </li>
+
+                    <li class="card-list-item">
+                      <i class="bi bi-lightning-charge"></i>
+
+                      <span class="card-item-text">Gasoline</span>
+                    </li>
+
+                    <li class="card-list-item">
+                      <i class="bi bi-speedometer2"></i>
+
+                      <span class="card-item-text">7.1km / 1-litre</span>
+                    </li>
+
+                    <li class="card-list-item">
+                      <i class="bi bi-suitcase"></i>
+
+                      <span class="card-item-text">Luggage</span>
+                    </li>
+
+                  </ul>
+
+                  <div class="card-price-wrapper">
+
+                    <p class="card-price">
+                      <strong>$1000</strong> / month
+                    </p>
+
+                    <button class="btn fav-btn" aria-label="Add to favourite list">
+                      <i class="bi bi-heart-fill"></i>
+                    </button>
+
+                    <button class="btn">Rent now</button>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="featured-car-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/car-3.png" alt="mahindra" loading="lazy" width="440"
+                    height="303" class="w-100">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-title-wrapper">
+                    <h3 class="h3 card-title">
+                      <a href="#">SUV</a>
+                    </h3>
+                  </div>
+
+                  <ul class="card-list">
+
+                    <li class="card-list-item">
+                      <i class="bi bi-person"></i>
+
+                      <span class="card-item-text">6 People</span>
+                    </li>
+
+                    <li class="card-list-item">
+                      <i class="bi bi-lightning-charge"></i>
+
+                      <span class="card-item-text">Gasoline</span>
+                    </li>
+
+                    <li class="card-list-item">
+                      <i class="bi bi-speedometer2"></i>
+
+                      <span class="card-item-text">6.1km / 1-litre</span>
+                    </li>
+
+                    <li class="card-list-item">
+                      <i class="bi bi-suitcase"></i>
+
+                      <span class="card-item-text">Luggage</span>
+                    </li>
+
+                  </ul>
+
+                  <div class="card-price-wrapper">
+
+                    <p class="card-price">
+                      <strong>$100</strong> / month
+                    </p>
+
+                    <button class="btn fav-btn" aria-label="Add to favourite list">
+                      <i class="bi bi-heart-fill"></i>
+                    </button>
+
+                    <button class="btn">Rent now</button>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="featured-car-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/car-4.png" alt="mahindra" loading="lazy" width="440"
+                    height="303" class="w-100">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-title-wrapper">
+                    <h3 class="h3 card-title">
+                      <a href="#">Luxary Plus</a>
+                    </h3>
+                  </div>
+
+                  <ul class="card-list">
+
+                    <li class="card-list-item">
+                      <i class="bi bi-person"></i>
+
+                      <span class="card-item-text">6 People</span>
+                    </li>
+
+                    <li class="card-list-item">
+                      <i class="bi bi-lightning-charge"></i>
+
+                      <span class="card-item-text">Gasoline</span>
+                    </li>
+
+                    <li class="card-list-item">
+                      <i class="bi bi-speedometer2"></i>
+
+                      <span class="card-item-text">8.1km / 1-litre</span>
+                    </li>
+
+                    <li class="card-list-item">
+                      <i class="bi bi-suitcase"></i>
+
+                      <span class="card-item-text">Luggage</span>
+                    </li>
+
+                  </ul>
+
+                  <div class="card-price-wrapper">
+
+                    <p class="card-price">
+                      <strong>$10</strong> / month
+                    </p>
+
+                    <button class="btn fav-btn" aria-label="Add to favourite list">
+                      <i class="bi bi-heart-fill"></i>
+                    </button>
+
+                    <button class="btn">Rent now</button>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="featured-car-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/car-5.png" alt="tata" loading="lazy" width="440"
+                    height="303" class="w-100">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-title-wrapper">
+                    <h3 class="h3 card-title">
+                      <a href="#">Luxary Pro</a>
+                    </h3>
+                  </div>
+
+                  <ul class="card-list">
+
+                    <li class="card-list-item">
+                      <i class="bi bi-person"></i>
+
+                      <span class="card-item-text">4 People</span>
+                    </li>
+
+                    <li class="card-list-item">
+                      <i class="bi bi-lightning-charge"></i>
+
+                      <span class="card-item-text">Gasoline</span>
+                    </li>
+
+                    <li class="card-list-item">
+                      <i class="bi bi-speedometer2"></i>
+
+                      <span class="card-item-text">7.1km / 1-litre</span>
+                    </li>
+
+                    <li class="card-list-item">
+                      <i class="bi bi-suitcase"></i>
+
+                      <span class="card-item-text">Luggage</span>
+                    </li>
+
+                  </ul>
+
+                  <div class="card-price-wrapper">
+
+                    <p class="card-price">
+                      <strong>$100</strong> / month
+                    </p>
+
+                    <button class="btn fav-btn" aria-label="Add to favourite list">
+                      <i class="bi bi-heart-fill"></i>
+                    </button>
+
+                    <button class="btn">Rent now</button>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="featured-car-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/car-6.png" alt="tata" loading="lazy" width="440" height="303"
+                    class="w-100">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-title-wrapper">
+                    <h3 class="h3 card-title">
+                      <a href="#">Luxary Ultra</a>
+                    </h3>
+                  </div>
+
+                  <ul class="card-list">
+
+                    <li class="card-list-item">
+                      <i class="bi bi-person"></i>
+
+                      <span class="card-item-text">2 People</span>
+                    </li>
+
+                    <li class="card-list-item">
+                      <i class="bi bi-lightning-charge"></i>
+
+                      <span class="card-item-text">Gasoline</span>
+                    </li>
+
+                    <li class="card-list-item">
+                      <i class="bi bi-speedometer2"></i>
+
+                      <span class="card-item-text">6.1km / 1-litre</span>
+                    </li>
+
+                    <li class="card-list-item">
+                      <i class="bi bi-suitcase"></i>
+
+                      <span class="card-item-text">Luggage</span>
+                    </li>
+
+                  </ul>
+
+                  <div class="card-price-wrapper">
+
+                    <p class="card-price">
+                      <strong>$1000</strong> / month
+                    </p>
+
+                    <button class="btn fav-btn" aria-label="Add to favourite list">
+                      <i class="bi bi-heart-fill"></i>
+                    </button>
+
+                    <button class="btn">Rent now</button>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #GET START
+      -->
+
+      <section class="section about-us" id="about-us">
+        <div class="container">
+
+          <h2 class="h2 section-title">About our VALUES</h2>
+
+          <ul class="about-us-list">
+
+            <li>
+              <div class="about-us-card">
+
+                <div class="card-icon icon-1">
+                  <i class="bi bi-cone-striped"></i>
+                </div>
+
+                <h3 class="card-title">Secure and Nice driving</h3>
+
+                <p class="card-text">
+                  Safety comes first. Comfort simply derives from it.
+                </p>
+
+                <a href="#" class="card-link">Blog</a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="about-us-card">
+
+                <div class="card-icon icon-2">
+                  <i class="bi bi-droplet"></i>
+                </div>
+
+                <h3 class="card-title">Well mentained and clean vehicles</h3>
+
+                <p class="card-text">
+                  you are about to ride in them for some time, so you deserve them to be neat and tidy.
+                </p>
+
+                <a href="#" class="card-link">Blog</a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="about-us-card">
+
+                <div class="card-icon icon-3">
+                  <i class="bi bi-wind"></i>
+                </div>
+
+                <h3 class="card-title">Reliabile and consistent</h3>
+
+                <p class="card-text">
+                  being on time is essential. Even if something prevents us from it, you will get notified in advance.
+                </p>
+
+                <a href="#" class="card-link">Blog</a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="about-us-card">
+
+                <div class="card-icon icon-4">
+                  <i class="bi bi-hand-thumbs-up"></i>
+                </div>
+
+                <h3 class="card-title">Friendly and Skilled</h3>
+
+                <p class="card-text">
+                  apart from driving you in a professional manner, we will be glad to assist you or provide information you might need while in Automobile.
+                </p>
+
+                <a href="#" class="card-link">Blog</a>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #BLOG
+      -->
+
+      <section class="section blog" id="blog">
+        <div class="container">
+
+          <h2 class="h2 section-title">Our Blog</h2>
+
+          <ul class="blog-list has-scrollbar">
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner">
+
+                  <a href="#">
+                    <img src="./assets/images/blog-1.jpeg" alt="Reach where you want safely" loading="lazy"
+                      class="w-100">
+                  </a>
+
+                  <a href="#" class="btn card-badge">Company</a>
+
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">
+                    <a href="#">Reach where you want safely</a>
+                  </h3>
+
+                  <div class="card-meta">
+
+                    <div class="publish-date">
+                      <i class="bi bi-alarm"></i>
+
+                      <time datetime="2022-01-15">January 15, 2022</time>
+                    </div>
+
+                    <div class="comments">
+                      <i class="bi bi-chat-dots"></i>
+
+                      <data value="404">404</data>
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner">
+
+                  <a href="#">
+                    <img src="./assets/images/blog-2.jpeg" alt="A driver's profile also include mobile number and even license plate" loading="lazy"
+                      class="w-100">
+                  </a>
+
+                  <a href="#" class="btn card-badge">Driver</a>
+
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">
+                    <a href="#">A driver's profile also include mobile number and even license plate</a>
+                  </h3>
+
+                  <div class="card-meta">
+
+                    <div class="publish-date">
+                      <i class="bi bi-alarm"></i>
+
+                      <time datetime="2022-01-15">January 15, 2022</time>
+                    </div>
+
+                    <div class="comments">
+                      <i class="bi bi-chat-dots"></i>
+
+                      <data value="404">404</data>
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner">
+
+                  <a href="#">
+                    <img src="./assets/images/blog-3.jpeg" alt="Pick UP and Drop OFF should be easy and timely." loading="lazy"
+                      class="w-100">
+                  </a>
+
+                  <a href="#" class="btn card-badge">Company</a>
+
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">
+                    <a href="#">Pick UP and Drop OFF should be easy and timely.</a>
+                  </h3>
+
+                  <div class="card-meta">
+
+                    <div class="publish-date">
+                      <i class="bi bi-alarm"></i>
+
+                      <time datetime="2022-01-15">January 15, 2022</time>
+                    </div>
+
+                    <div class="comments">
+                      <i class="bi bi-chat-dots"></i>
+
+                      <data value="404">404</data>
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner">
+
+                  <a href="#">
+                    <img src="./assets/images/blog-4.jpeg" alt="All drivers must maintain hygiene" loading="lazy"
+                      class="w-100">
+                  </a>
+
+                  <a href="#" class="btn card-badge">Car</a>
+
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">
+                    <a href="#">All drivers must maintain hygiene</a>
+                  </h3>
+
+                  <div class="card-meta">
+
+                    <div class="publish-date">
+                      <i class="bi bi-alarm"></i>
+
+                      <time datetime="2022-01-15">January 15, 2022</time>
+                    </div>
+
+                    <div class="comments">
+                      <i class="bi bi-chat-dots"></i>
+
+                      <data value="404">404</data>
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <div class="footer-top">
+
+        <div class="footer-brand">
+          <a href="#" class="logo">
+            <img src="./favicon.svg" alt="ramaFleet logo" height="70" width="30">
+          </a>
+
+          <p class="footer-text">
+            Take you wherever you want on time.&#128513;
+          </p>
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Company</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">About us</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Pricing plans</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Our blog</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Contacts</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Support</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Help center</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Ask a question</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Privacy policy</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Terms & conditions</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Cities we support!</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Patna</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Chapra</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">South Patna</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">IIT Patna</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">IIIT Patna</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">NIT Chapra</a>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <div class="footer-bottom">
+
+        <ul class="social-list">
+
+          <li>
+            <a href="#" class="social-link">
+              <i class="bi bi-github"></i>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <i class="bi bi-twitter"></i>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <i class="bi bi-envelope-at-fill"></i>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <i class="bi bi-linkedin"></i>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <i class="bi bi-whatsapp"></i>
+            </a>
+          </li>
+
+        </ul>
+
+        <p class="copyright">
+          &copy; 2022 <a href="#">codefactory</a>. All Rights Reserved
+        </p>
+
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - bootstrap link
+  -->
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+
+</body>
+
+</html>
